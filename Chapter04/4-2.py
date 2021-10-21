@@ -4,4 +4,5 @@
 内容：函数编程-map()应用
 """
 def format_name(SName):
-    s_fname=SName[0:1].upper()
+    s_fname=SName[0:1].upper()+SName[1:].lower()
+    return s_fname
