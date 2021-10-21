@@ -6,3 +6,10 @@
 
 from functools import reduce
 
+
+def addnum(x, y):
+    return x + y
+
+
+print(reduce(addnum, range(1, 101)))
+
