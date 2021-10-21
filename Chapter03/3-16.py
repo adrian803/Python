@@ -8,3 +8,4 @@ L=['steven','kate','jack']
 Iter=iter(L)
 for i in Iter:
     print(i)
+    
